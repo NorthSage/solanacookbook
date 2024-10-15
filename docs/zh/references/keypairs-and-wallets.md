@@ -686,7 +686,7 @@ footer: MIT Licensed
 
 Solana的[钱包适配器](https://github.com/solana-labs/wallet-adapter) 库使客户端管理钱包连接变得简单。
 
-### 反应
+### React
 
 运行以下命令来安装所需的依赖项：
 
