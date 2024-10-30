@@ -752,7 +752,7 @@ Le plugin [Solana Wallets Vue](https://github.com/lorisleiva/solana-wallets-vue)
 Exécutez la commande suivante pour installer les dépendances requises :
 
 ```/bin/bash
-npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js
+npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js@1
 ```
 
 Le package [Svelte Wallet Adapter](https://github.com/svelte-on-solana/wallet-adapter) package permet d'ajouter un Store Svelte (`$walletStore`) accessible parmi tous les fichiers JS, TS et/ou Svelte à l'intérieur d'un projet réalisé avec Svelte Template ou SvelteKit. En utilisant le répertoire de référence [ici](https://github.com/svelte-on-solana/wallet-adapter/blob/master/packages/core/README.md/) vous pouvez utiliser l'adaptateur pour SSR ou SPA. Le package UI contient un composant `<WalletMultiButton />` pour permettre aux utilisateurs de sélectionner un portefeuille et de s'y connecter.

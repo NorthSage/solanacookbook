@@ -751,7 +751,7 @@ npm install solana-wallets-vue @solana/wallet-adapter-wallets
 Run คำสั่งข้างล่างเพื่อติดตั้ง dependencies ที่ต้องใช้:
 
 ```/bin/bash
-npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js
+npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js@1
 ```
 
 [Svelte Wallet Adapter](https://github.com/svelte-on-solana/wallet-adapter) package จะทำให้เราสามารถเพิ่ม Svelte Store (`$walletStore`) ที่เข้าถึงได้ทั้ง JS, TS และ/หรือ Svelte files ใน project ที่สร้างด้วย Svelte Template หรือ SvelteKit. โดยใช้ repo [ที่นี่](https://github.com/svelte-on-solana/wallet-adapter/blob/master/packages/core/README.md/) เราสามารถที่จะใช้ adapter สำหรับ SSR หรือ SPA. ส่วน UI package จะมี `<WalletMultiButton />` component เพื่อให้ผู้ใช้สามารถเลือกและเชื่อมต่อ wallet ได้

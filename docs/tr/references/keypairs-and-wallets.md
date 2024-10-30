@@ -193,7 +193,7 @@ import { WalletMultiButton } from "solana-wallets-vue";
 Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
 
 ```
-npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js
+npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js@1
 ```
 
 [Svelte Wallet Adapter](https://github.com/svelte-on-solana/wallet-adapter) paketi, Svelte Template veya SvelteKit ile yapılan bir proje içindeki tüm JS, TS ve/veya Svelte dosyaları arasında erişilebilir bir Svelte Mağazası (`$walletStore`) eklemeye olanak tanır. [Burada](https://github.com/svelte-on-solana/wallet-adapter/blob/master/packages/core/README.md/)ki repo referansını kullanarak adaptörü SSR veya SPA için kullanabilirsiniz. Kullanıcı arabirimi paketi, kullanıcıların kendisine bağlanacak bir cüzdan seçmesine olanak tanıyan bir `<WalletMultiButton />` bileşeni içerir.

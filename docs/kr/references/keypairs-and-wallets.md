@@ -762,7 +762,7 @@ npm install solana-wallets-vue @solana/wallet-adapter-wallets
 요구되는 의존성들을 설치하기 위해 아래의 명령어를 실행하세요:
 
 ```/bin/bash
-npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js
+npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js@1
 ```
 
 [Svelte Wallet Adapter](https://github.com/svelte-on-solana/wallet-adapter) 패키지는 프로젝트 내의 모든 JS, TS 또는/그리고 Svelte 파일들에서 접근할 수 있는 Svelte Store (`$walletStore`)을 추가할 수 있게 해 줍니다.
