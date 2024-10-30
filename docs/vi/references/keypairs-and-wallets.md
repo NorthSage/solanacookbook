@@ -719,7 +719,7 @@ Plugin [Solana Wallets Vue](https://github.com/lorisleiva/solana-wallets-vue) ch
 Chạy đoạn mã sau đây để cài các thư viện cần thiết:
 
 ```/bin/bash
-npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js
+npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js@1
 ```
 
 Gói [Svelte Wallet Adapter](https://github.com/svelte-on-solana/wallet-adapter) cho phép thêm một Svelte Store (`$walletStore`) có khả năng truy xuất từ các tập tin JS, TS or/and Svelte bên trong dự án được tạo từ Svelte Template hoặc SvelteKit. Sử dụng mã nguồn tham khảo [tại đây](https://github.com/svelte-on-solana/wallet-adapter/blob/master/packages/core/README.md/) bạn có thể sử dụng bộ tiếp hợp cho SSR và cả SPA. Gói giao diện người dùng có chứa một thành phần là `<WalletMultiButton />`, nó cho phép người dùng có thể chọn và tạo kết nối đến ví.

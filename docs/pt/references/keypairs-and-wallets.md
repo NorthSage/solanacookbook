@@ -751,7 +751,7 @@ O plugin de integração [Solana Wallets - Vue](https://github.com/lorisleiva/so
 Execute o seguinte comando para instalar as dependências necessárias:
 
 ```/bin/bash
-npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js
+npm install @svelte-on-solana/wallet-adapter-core @svelte-on-solana/wallet-adapter-ui @solana/wallet-adapter-base @solana/wallet-adapter-wallets @solana/web3.js@1
 ```
 
 O pacote [Svelte Wallet Adapter](https://github.com/svelte-on-solana/wallet-adapter) permite adicionar uma Loja Svelte (`$walletStore`) acessível em todos os arquivos JS, TS ou Svelte dentro de um projeto feito com Svelte Template ou SvelteKit. Usando a referência do repositório [aqui](https://github.com/svelte-on-solana/wallet-adapter/blob/master/packages/core/README.md/), você pode usar o adaptador para SSR ou SPA. O pacote da interface do usuário contém um componente `<WalletMultiButton />` para permitir que os usuários selecionem uma carteira para se conectar a ela.

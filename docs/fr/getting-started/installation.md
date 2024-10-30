@@ -51,7 +51,7 @@ Vous pouvez l'installer avec l'une des commandes suivantes :
   <CodeGroupItem title="YARN" active>
 
 ```bash
-yarn add @solana/web3.js
+yarn add @solana/web3.js@1
 ```
 
   </CodeGroupItem>
@@ -59,7 +59,7 @@ yarn add @solana/web3.js
   <CodeGroupItem title="NPM">
 
 ```bash
-npm install --save @solana/web3.js
+npm install --save @solana/web3.js@1
 ```
 
   </CodeGroupItem>
