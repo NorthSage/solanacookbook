@@ -607,7 +607,7 @@ Bạn nên sử dụng CLI cho nhiệm vụ này. Ví dụ trên Python và Type
 
 </SolanaCodeGroup>
 
-## Làm thế nào ký và kiểm tra tinh nhắn bằng ví
+## Làm thế nào ký và kiểm tra tin nhắn bằng ví
 
 Một chức năng cơ bản của một cặp khoá là ký một tin nhắn và cho phép kiểm tra chữ ký cùng tin nhắn đó. Wuas trình xác nhận một chữ ký cho phép người nhận chắc chắn rằng dữ liệu được ký là do chủ sở hữu thực sự của cặp khoá ký lên.
 
