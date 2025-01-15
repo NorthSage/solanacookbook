@@ -8,6 +8,7 @@ import {
   sendAndConfirmTransaction,
   Lockup,
 } from "@solana/web3.js";
+import { getStakeActivation } from '@anza-xyz/solana-rpc-get-stake-activation';
 
 (async () => {
   // Setup our connection and wallet
@@ -56,6 +57,7 @@ import {
   console.log(`Stake account balance: ${stakeBalance / LAMPORTS_PER_SOL} SOL`);
 
   // Verify the status of our stake account. This will start as inactive and will take some time to activate.
-  let stakeStatus = await connection.getStakeActivation(stakeAccount.publicKey);
-  console.log(`Stake account status: ${stakeStatus.state}`);
+  let stakeStatus = await getStakeActivation(connection, stakeAccount.publicKey);
+
+  console.log(`Stake account status: ${stakeStatus.status}`);
 })();
