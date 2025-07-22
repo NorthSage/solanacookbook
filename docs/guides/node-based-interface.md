@@ -67,6 +67,19 @@ Below is an abridged TypeScript example that illustrates how a few nodes could b
   </CodeGroupItem>
 </CodeGroup>
 
+## Demo
+
+You can try a simple web based builder by deploying the cookbook to
+[Vercel](https://vercel.com). The static page located at
+`/node-interface/` contains an example editor powered by Rete.js.
+
+```bash
+vercel --prod
+```
+
+Once deployed open `https://your-deployment.vercel.app/node-interface/` to
+interactively connect nodes and build flows.
+
 ## Other Resources
 
 - [Node-RED](https://nodered.org/) – popular open source flow based tool
